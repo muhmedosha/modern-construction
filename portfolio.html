@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Construction | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #111;
+            font-family: Arial, sans-serif;
+        }
+
+        .portfolio-header {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            background: #181818;
+            color: white;
+        }
+
+        .portfolio-header h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .back-btn {
+            color: white;
+            text-decoration: none;
+            border: 1px solid #777;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+
+        .pdf-container {
+            width: 100%;
+            height: calc(100vh - 80px);
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="portfolio-header">
+
+        <h1>
+            Modern Construction — Portfolio
+        </h1>
+
+        <a href="index.html" class="back-btn">
+            Back to Website
+        </a>
+
+    </header>
+
+
+    <div class="pdf-container">
+
+        <iframe
+    src="assets/projects.pdf/projects-portfolio.pdf">
+</iframe>
+
+    </div>
+
+</body>
+
+</html>
